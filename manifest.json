@@ -1,15 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "Crypto Tracker",
+  "name": "Crypto Lite",
   "version": "1.0",
-  "description": "Track cryptocurrency prices",
+  "description": "A simple extension that shows current cryptocurrency prices",
 
   "icons": {
     "16": "files/img/icon-16.png",
     "48": "files/img/icon-48.png",
     "128": "files/img/icon-128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": "files/img/icon-48.png",
     "default_popup": "extension.html"
   },
