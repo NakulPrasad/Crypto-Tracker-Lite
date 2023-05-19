@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Crypto Tracker",
+  "version": "1.0",
+  "description": "Track cryptocurrency prices",
+
+  "icons": {
+    "16": "files/img/icon-16.png",
+    "48": "files/img/icon-48.png",
+    "128": "files/img/icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": "files/img/icon-48.png",
+    "default_popup": "extension.html"
+  },
+
+  "background": {
+    "service_worker": "files/js/extension.js"
+  }
+}
