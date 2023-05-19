@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Crypto Lite",
+  "name": "Crypto Tracker Lite",
   "version": "1.0",
   "description": "A simple extension that shows current cryptocurrency prices",
 
