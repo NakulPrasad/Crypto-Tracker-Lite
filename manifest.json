@@ -3,6 +3,7 @@
   "name": "Crypto Tracker Lite",
   "version": "1.0",
   "description": "A simple extension that shows current cryptocurrency prices",
+  "minimum_chrome_version": "93",
 
   "icons": {
     "16": "files/img/icon-16.png",
@@ -15,6 +16,7 @@
   },
 
   "background": {
-    "service_worker": "files/js/extension.js"
+    "service_worker": "files/js/extension.js",
+    "type": "module"
   }
 }
