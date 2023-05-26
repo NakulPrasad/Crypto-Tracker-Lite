@@ -39,5 +39,11 @@ req.onreadystatechange = function () {
       new Date().toLocaleTimeString();
   }
 };
+let telegram_msg = "hellow form crypto tracker lite";
+let telegram_msg_encoded = encodeURIComponent(telegram_msg);
+let telegram_url =
+  "https://api.telegram.org/bot5785185307:AAHO6l5bna_VijAv_6CN58n_0iX0esWm6_g/sendMessage?chat_id=636595808&text=hi";
+// document.getElementById("telegram").href = telegram_url;
+document.getElementById("telegram").setAttribute("href", telegram_url);
 
 req.send();
